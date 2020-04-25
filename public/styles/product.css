@@ -1,0 +1,75 @@
+@import url('./common.css');
+.content {
+	display: flex;
+  max-width: 60rem;
+  margin: 3rem auto;
+}
+.content-img {
+	width: 30rem;
+
+}
+.content-img img {
+  width: 100%;
+}
+.content-description {
+  width: 30rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.content-description p {
+  font-size: 1.2rem;
+}
+.content-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+.tabs-wrapp {
+  padding: 50px 0;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.tabs {
+	margin: 0 0 50px 0;
+}
+.tabs__items {
+	display: flex;
+}
+.tabs__link {
+	flex: 0 1 33.333%;
+	height: 80px;
+  background-color: #535a53;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: 0.3s;
+  border-radius: 10px 10px 0 0;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.active {
+  background: #ddd;
+  color: #000000;
+}
+.tabs__block {
+  background: #ddd;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  display: none;
+  padding: 1rem 3rem;
+  min-height: 20rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;	
+}
+.tabs__block table {
+  border-collapse: collapse;
+}
+.tabs__block th, td {
+	border: 1px solid #000000;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+.left {
+  text-align: left;
+}
