@@ -139,14 +139,16 @@ nav li:hover > .submenu {
 /*--slider popular--*/
 .slideshow-container {
 	width: 100%;
-	z-index: 3;
+	z-index: -1;
+	position: absolute;
+	top: 0;
 }
 
 .mySlides {
 	display: none;
 	background-size: cover;
 	background-position: center;
-	height: 35rem;
+	height: 38rem;
 	background-attachment: fixed;
 }
 .fade {
@@ -199,7 +201,7 @@ nav li:hover > .submenu {
 }
 /*##########################*/
 .catalog {
-	/*margin-top: 29.3rem;*/
+	margin-top: 27.9rem;
 }
 
 
@@ -285,8 +287,7 @@ footer{
 .owl-next, .owl-prev {
 	background: #1780c2;
 	height: 67px;
-	width: 67px;
-	/*line-height: 67px;*/
+	width: 47px;
 	font-size: 50px;
 	border-style: none;
 	color: #ffffff;
@@ -297,10 +298,12 @@ footer{
 }
 .owl-next span, .owl-prev span{
 	color: #ffffff;
-	font-size: 50px;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 61px;
 	background: #1780c2;
 	height: 67px;
-	width: 67px;
+	width: 47px;
 	display: block;
 	border-right: 1px solid grey;
 	border-left: 1px solid grey;
@@ -314,11 +317,12 @@ footer{
 	border-left: 1px solid grey;
 }
 .about__title {
+	min-height: 67px;
 	font-size: 23px;
 	color: #ffffff;
 	background: #1780c2;
 	text-align: center;
-	padding: 20px 67px;
+	padding: 20px 47px;
 	font-weight: 400;
 }
 .info {
