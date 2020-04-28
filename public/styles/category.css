@@ -2,7 +2,6 @@
 /* ##################### ########################################################*/
 .catalog h3 {
 	color: #ffffff;
-	/* background: #535a53; */
 	background: #313234;
 	font-size: 1.5rem;
 	padding: 1.5rem 0;
@@ -12,6 +11,10 @@
 }
 .catalog-wrap {
 	display: grid;
+	-webkit-display: grid;
+	-moz-display: grid;
+	-ms-display: grid;
+	-o-display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 25vw 25vw;
 	justify-content: center;

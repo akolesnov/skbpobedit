@@ -61,9 +61,10 @@
 	<section class="mid-header">
 		<div class="container">
 			<div class="bottom-container">	
+				<div class="burger-menu" id="burger" onclick="burger(this)"></div>
 				<a href="./index.html" class="logo"><img src="./img/logo2.png" alt=""/></a>
 				<nav>
-					<ul class="topmenu">
+					<ul class="topmenu" id="topmenu">
 						<li><a href="./index.html">Главная</a></li>
 						<li><a href="./category.html">Товары</a>
 							<ul class="submenu">
@@ -217,7 +218,7 @@
 			</div>
 		</div>	
 	</section>
-	<div class="other"><a href="./news.html" class="other__a">УЗНАТЬ БОЛЬШЕ</a></div>
+	<div class="other"><a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a></div>
 	<div class="slideshow-container">
 		<div class="mySlides fade sl1" 
 			 style="background-image: url('./img/slide/slide1.jpg');">
@@ -236,7 +237,7 @@
 			 style="background-image: url('./img/slide/slide5.jpg');">
 		</div>
 	</div>
-	<section class="catalog">
+	<section class="catalog" id="catalog">
 			<h3>Оборудование для ремонта и испытаний трубопроводной арматуры</h3>
 			<div class="catalog-wrap">
 				<a href="./catalog/moika.html"
