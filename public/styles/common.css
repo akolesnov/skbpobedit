@@ -164,7 +164,7 @@ nav li:hover > .submenu {
 	display: none;
 	background-size: cover;
 	background-position: center;
-	height: 38rem;
+	height: 44rem;
 	background-attachment: fixed;
 }
 .fade {
@@ -218,7 +218,7 @@ nav li:hover > .submenu {
 }
 /*##########################*/
 .catalog {
-	margin-top: 27.9rem;
+	margin-top: 33.9rem;
 }
 
 
@@ -300,6 +300,9 @@ footer{
 .about-line {
 	
 	position: relative;
+}
+.owl-carousel {
+	background: #ffffff;
 }
 .owl-next, .owl-prev {
 	background: #1780c2;
@@ -464,8 +467,6 @@ footer{
 	}
 	.mySlides {
 		background-size: inherit;
-		background-position: bottom
-	}
 }
 @media screen and (max-width: 480px) {
 	.logo img {
@@ -490,6 +491,9 @@ footer{
 	}
 	.contacts p {
 		font-size: 15px;
+	}
+	.other__a {
+		padding: 15px 10px;
 	}
 }
 @media screen and (max-width: 370px) {
