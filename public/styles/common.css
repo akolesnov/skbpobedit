@@ -125,6 +125,7 @@ nav li:hover > .submenu {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
+	margin-bottom: 37rem;
 }
 .logo {
 	padding: 7px;
@@ -217,9 +218,9 @@ nav li:hover > .submenu {
 	z-index: 0 !important;
 }
 /*##########################*/
-.catalog {
+/*.catalog {
 	margin-top: 33.9rem;
-}
+}*/
 
 
 footer{
@@ -273,6 +274,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	margin: 0.5rem 0;
+	margin-right: 5rem;
 }
 .social-icon{
 	width: 40px;
