@@ -1,5 +1,42 @@
 @import url('./common.css');
 
+header {
+	height: 420px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header__title {
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-top: 115px;
+}
+.separator {
+	width: 65px;
+	height: 2px;
+	background: #0b79bf;
+	margin: 14px 0;
+}
+.links {
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+	color: #ffffff;
+	font-size: 13px;
+}
+.links a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 600;
+	color: #ffffff;
+}
+.links a:hover {
+	color: #0b79bf;
+}
+.links span {
+
+}
 .razdel-top {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -26,7 +63,6 @@
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: -1.3px;
-	margin-bottom: 32px;
 }
 .razdel__text {
 	color: #383838;
@@ -34,6 +70,23 @@
 	line-height: 22px;
 	font-style: normal;
 	font-weight: 500;
+	padding: 32px 0;
+}
+.razdel__btn {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #1780c2;
+	font-size: 14px;
+	display: inline-flex;
+	align-items: center;
+	height: 64px;
+}
+.razdel__btn-text {
+	padding: 0 35px;
+}
+.razdel__btn-icon {
+	padding: 0 14px;
+	font-size: 40px;
 }
 .product {
 	border: 2px solid #ddd;
@@ -42,6 +95,7 @@
 	margin: 1rem auto;
 	display: flex;
 	justify-content: space-around;
+	border-radius: 20px;
 }
 .product__img {
 	width: 30rem;
@@ -61,11 +115,11 @@
 	letter-spacing: 2px;*/
 	margin-bottom: 5rem;
 	color: #303030;
-    font-size: 23px;
-    line-height: 35px;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: -1.3px;
+	font-size: 23px;
+	line-height: 35px;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: -1.3px;
 }
 .line-2 {
 	display: flex;

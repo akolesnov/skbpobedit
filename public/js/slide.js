@@ -15,15 +15,15 @@ function showSlides() {
 
 function burger(){
 	var x = document.getElementById('topmenu');
-	var y = document.getElementById('margB');
+	var y = document.getElementById('catalog');
 	var b = document.getElementById('butNews');
 	if (x.style.display === "block") {
 		x.style.display = "none";
-		y.style.marginBottom = "37rem";
+		y.style.marginTop = "37rem";
 		b.style.display = "block";
 	} else {
 		x.style.display = "block";
-		y.style.marginBottom = "10rem";
+		y.style.marginTop = "10rem";
 		b.style.display = "none";
 	}
 }
