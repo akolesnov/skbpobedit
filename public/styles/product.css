@@ -88,8 +88,8 @@ header {
 .tabs__link {
 	flex: 0 1 33.333%;
 	height: 80px;
-	/*background: #1780c2;*/
-	background: darkslategray;
+	/*background: darkslategray;*/
+	background-color: #1780c2;
 	font-size: 1rem;
 	color: #ffffff;
 	transition: 0.3s;
