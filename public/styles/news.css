@@ -86,6 +86,15 @@ header {
 	line-height: 22px;
 	font-weight: 500;
 	margin: 10px 0 15px 0;
+	/*overflow: hidden;
+	text-overflow: ellipsis;
+	display: -moz-box;
+	-moz-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	line-clamp: 6;
+	box-orient: vertical;*/
 }
 .news__data {
 	color: #303030;
