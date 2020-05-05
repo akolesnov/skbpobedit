@@ -102,6 +102,31 @@
 	text-align: left;
 }
 
+.dop-ob__title {
+	text-align: center;
+	color: #303030;
+	font-size: 23px;
+	line-height: 35px;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: -1.3px;
+}
+.dop-ob-wrap {
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+}
+.dop-ob {
+	display: block;
+	text-decoration: none;
+	width: 300px;
+}
+.dop-ob__img {
+	width: 100%
+}
+.dop-ob__img img {
+	width: 100%;
+}
+
 @media screen and (max-width: 750px) {
 	.content {
 		flex-direction: column;
