@@ -12,6 +12,13 @@
 	<link rel="stylesheet" href="./styles/common.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./styles/about.css" />
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<script
+		src="https://code.jquery.com/jquery-3.5.0.min.js"
+		integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+		crossorigin="anonymous">
+	</script>
 </head>
 <body>
 	<header style="background-image: url('./img/razdel/razd7.jpg');">
@@ -270,7 +277,7 @@
 			</div>
 		</div>
 		<h3 class="production__title">ПРОИЗВОДСТВО</h3>
-		<div class="production-wrap">
+		<div class="owl-carousel production-wrap">
 			<div class="production"
 					style="background-image: url('./img/mo.png');">
 				<span class="production__name"></span>
@@ -309,8 +316,8 @@
 					E-Mail: info@skbpobedit.ru
 				</p>
 			</div>
-			<div class="footer__bottom">  
-				<p class="footer__data">© 2020 ООО СКБ «ПОБЕДИТ»</p>
+			<!-- <div class="footer__bottom"> -->  
+				
 				<div class="social">
 					<a href="https://www.youtube.com/channel/UChPmCzXVgR0G_SCYJUj4OAQ"
 							class="social-icon">
@@ -332,11 +339,14 @@
 					<a href="https://www.facebook.com/skbpobedit?refsrc=https%3A%2F%2Fmobile.facebook.com%2Fskbpobedit"
 							class="social-icon linkedin">f</a>
 				</div>
-				<a class="author" href="">Сделано в <b>topux.dev</b></a>  
-			</div>
+				<p class="footer__data">© 2020 ООО СКБ «ПОБЕДИТ»</p>
+				<!-- <a class="author" href="">Сделано в <b>topux.dev</b></a>   -->
+			<!-- </div> -->
 		</div>
 	</footer>
 	<script src="./js/script.js"></script>
 	<script src="./js/search.js"></script>
+	<script src="./js/about.js"></script>
+	<script src="./owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
