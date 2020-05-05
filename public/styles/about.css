@@ -5,11 +5,13 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
+	padding: 50px 120px;
 }
 .about-info {
-	padding: 40px 120px 40px 60px;
+	/*padding: 40px 120px 40px 60px;*/
 	/*max-width: 900px;*/
+	padding-right: 100px;
 }
 .about__text {
 	color: #383838;
@@ -24,12 +26,12 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	height: 250px;
-	align-items: center;
-	margin-bottom: 50px;
+	/*height: 250px;*/
+	/*align-items: center;*/
+	margin: 32px 0;
 }
 .about-logo__img {
-	height: 150px;
+	height: 80px;
 	box-sizing: border-box;
 }
 .skb {
@@ -63,8 +65,8 @@
 	
 }
 .about__img {
-	width: 210px;
-	height: 210px;
+	width: 220px;
+	height: 220px;
 	overflow: hidden;
 }
 .about__img img {

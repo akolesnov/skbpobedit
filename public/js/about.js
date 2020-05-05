@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 		},
 		autoplay: true,
-		autoplayTimeout: 3000
+		autoplayTimeout: 2000
 	});
 });
 
