@@ -219,13 +219,16 @@ footer{
 .contacts a {
 	text-decoration: none;
 	color: #ffffff;
+	line-height: 1.5rem;
 }
 .contacts p {
 	line-height: 1.5rem;
-	margin-top: 1rem;
+	/*margin-top: 1rem;*/
 }
 .contacts > .logo {
 	min-height: 4.6rem;
+	margin-bottom: 1rem;
+	display: block;
 }
 .contacts > .logo > img {
 	height: 4.6rem;
@@ -272,6 +275,10 @@ footer{
 }
 
 @media screen and (max-width: 930px) {
+	header {
+		max-width: 930px;
+		overflow: hidden;
+	}
 	.bottom-container {
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
@@ -319,6 +326,9 @@ footer{
 
 }
 @media screen and (max-width: 790px) {
+	header {
+		max-width: 790px;
+	}
 	.footer-nav ul {
 		display: none;
 	}
@@ -336,6 +346,9 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
+	header {
+		max-width: 480px;
+	}
 	.logo img {
 		height: 3.5rem;
 	}
@@ -347,6 +360,9 @@ footer{
 	}
 }
 @media screen and (max-width: 425px) {
+	header {
+		max-width: 425px;
+	}
 	.burger-menu {
 		top: 19px;
 	}
@@ -362,17 +378,25 @@ footer{
 }
 
 @media screen and (max-width: 370px) {
+	header {
+		max-width: 370px;
+	}
 	.logo img {
 		height: 2.7rem;
 	}
 	.contacts p {
 		font-size: 13px;
 	}
+	.topmenu {
+		max-width: 370px;
+	}
 }
 
 @media screen and (max-width: 330px) {
+	header {
+		max-width: 330px;
+	}
 	.logo img {
 		height: 2.5rem;
 	}
-	
 }
