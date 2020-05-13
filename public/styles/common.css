@@ -355,18 +355,21 @@ footer{
 		height: 3.6rem;
 	}
 	.topmenu, .search {
-		max-width: 480px;
+		max-width: 480px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
 	}
+	.input-search {
+		max-width: 424px !important;
+	}
 }
 @media screen and (max-width: 425px) {
 	.input-search {
-		max-width: 379px;
+		max-width: 379px !important;
 	}
 	.topmenu, .search {
-		max-width: 425px;
+		max-width: 425px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -386,10 +389,10 @@ footer{
 }
 @media screen and (max-width: 414px) {
 	.input-search {
-		max-width: 368px;
+		max-width: 368px !important;
 	}
 	.topmenu, .search {
-		max-width: 414px;
+		max-width: 414px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -397,10 +400,10 @@ footer{
 }
 @media screen and (max-width: 380px) {
 	.input-search {
-		max-width: 334px;
+		max-width: 334px !important;
 	}
 	.topmenu, .search {
-		max-width: 380px;
+		max-width: 380px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -411,10 +414,10 @@ footer{
 }
 @media screen and (max-width: 375px) {
 	.input-search {
-		max-width: 329px;
+		max-width: 329px !important;
 	}
 	.topmenu, .search {
-		max-width: 375px;
+		max-width: 375px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -433,7 +436,7 @@ footer{
 
 @media screen and (max-width: 330px) {
 	.topmenu, .search {
-		max-width: 330px;
+		max-width: 330px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -444,10 +447,10 @@ footer{
 }
 @media screen and (max-width: 320px) {
 	.input-search {
-		max-width: 274px;
+		max-width: 274px !important;
 	}
 	.topmenu, .search {
-		max-width: 320px;
+		max-width: 320px !important;
 	}
 	.search>.container>form {
 		max-width: 480px;
