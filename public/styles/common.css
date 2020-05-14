@@ -178,6 +178,7 @@ nav li:hover > .submenu {
 	padding: 0 10px;
 	width: calc(100% - 46px);
 	-webkit-appearance: none;
+	font-size: 15px;
 }
 .input-search::::-ms-clear {
 	display: none;
@@ -355,24 +356,26 @@ footer{
 		height: 3.6rem;
 	}
 	.topmenu, .search {
-		max-width: 480px !important;
+		max-width: 480px;
 	}
 	.search>.container>form {
 		max-width: 480px;
 	}
 	.input-search {
-		max-width: 424px !important;
+		max-width: 424px;
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 425px) {
 	.input-search {
-		max-width: 379px !important;
+		max-width: 379px;
+		font-size: 15px;
 	}
 	.topmenu, .search {
-		max-width: 425px !important;
+		max-width: 425px;
 	}
 	.search>.container>form {
-		max-width: 480px;
+		max-width: 425px;
 	}
 	.burger-menu {
 		top: 19px;
@@ -389,21 +392,50 @@ footer{
 }
 @media screen and (max-width: 414px) {
 	.input-search {
-		max-width: 368px !important;
+		max-width: 368px;
+		font-size: 15px;
 	}
 	.topmenu, .search {
-		max-width: 414px !important;
+		max-width: 414px;
 	}
 	.search>.container>form {
-		max-width: 480px;
+		max-width: 414px;
 	}
 }
-@media screen and (max-width: 380px) {
+
+@media screen and (max-width: 400px) {
 	.input-search {
-		max-width: 334px !important;
+		max-width: 354px;
+		font-size: 15px;
 	}
 	.topmenu, .search {
-		max-width: 380px !important;
+		max-width: 400px;
+	}
+	.search>.container>form {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.input-search {
+		max-width: 344px;
+		font-size: 15px;
+	}
+	.topmenu, .search {
+		max-width: 390px;
+	}
+	.search>.container>form {
+		max-width: 390px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.input-search {
+		max-width: 334px;
+		font-size: 15px;
+	}
+	.topmenu, .search {
+		max-width: 380px;
 	}
 	.search>.container>form {
 		max-width: 480px;
@@ -414,23 +446,33 @@ footer{
 }
 @media screen and (max-width: 375px) {
 	.input-search {
-		max-width: 329px !important;
+		max-width: 329px;
+		font-size: 15px;
 	}
 	.topmenu, .search {
 		max-width: 375px !important;
 	}
 	.search>.container>form {
-		max-width: 480px;
+		max-width: 375px;
 	}
 }
 
 @media screen and (max-width: 370px) {
-
+	.input-search {
+		max-width: 324px;
+		font-size: 15px;
+	}
+	.topmenu, .search {
+		max-width: 370px !important;
+	}
+	.search>.container>form {
+		max-width: 370px;
+	}
 	.logo img {
 		height: 2.7rem;
 	}
 	.contacts p {
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
 
@@ -439,7 +481,7 @@ footer{
 		max-width: 330px !important;
 	}
 	.search>.container>form {
-		max-width: 480px;
+		max-width: 330px;
 	}
 	.logo img {
 		height: 2.5rem;
@@ -447,12 +489,13 @@ footer{
 }
 @media screen and (max-width: 320px) {
 	.input-search {
-		max-width: 274px !important;
+		max-width: 274px;
+		font-size: 15px;
 	}
 	.topmenu, .search {
-		max-width: 320px !important;
+		max-width: 320px;
 	}
 	.search>.container>form {
-		max-width: 480px;
+		max-width: 320px;
 	}
 }

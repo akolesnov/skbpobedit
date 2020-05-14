@@ -9,10 +9,13 @@ let obj = {
 	'ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ': './catalog/vspom-oborud.html',
 	'ПЕРЕДВИЖНЫЕ МАСТЕРСКИЕ': './catalog/peredvij-master.html',
 	'СТЕНДЫ ДЛЯ ИСПЫТАНИЙ И НАСТРОЙКИ ПРЕДОХРАНИТЕЛЬНЫХ КЛАПАНОВ ПОБЕДИТ-С-1': './catalog/isp-oborudovanie/pobedit-s-1.html',
+	'СТЕНДЫ ДЛЯ ИСПЫТАНИЙ И НАСТРОЙКИ ПРЕДОХРАНИТЕЛЬНЫХ КЛАПАНОВ ПОБЕДИТ-С-1М': './catalog/isp-oborudovanie/s-1m.html',
 	'ВЕРТИКАЛЬНЫЕ СТЕНДЫ ДЛЯ ГИДРАВЛИЧЕСКИХ И ПНЕВМАТИЧЕСКИХ ИСПЫТАНИЙ ТРУБОПРОВОДНОЙ АРМАТУРЫ ПОБЕДИТ-С-2': './catalog/isp-oborudovanie/pobedit-s-2.html',
 	'ГОРИЗОНТАЛЬНЫЕ СТЕНДЫ ДЛЯ ГИДРАВЛИЧЕСКИХ И ПНЕВМАТИЧЕСКИХ ИСПЫТАНИЙ ТРУБОПРОВОДНОЙ АРМАТУРЫ ПОБЕДИТ-С-3': './catalog/isp-oborudovanie/pobedit-s-3.html',
 	'СТЕНДЫ ДЛЯ ИСПЫТАНИЙ УСТЬЕВОГО И ПРОТИВОВЫБРОСОВОГО ОБОРУДОВАНИЯ ПОБЕДИТ-С-1-425': './catalog/isp-oborudovanie/pobedit-s-1-425.html',
-	'СТАНЦИИ ПНЕВМОГИДРАВЛИЧЕСКИЕ ПОБЕДИТ-СПГ': './catalog/istochniki-davleniya/pobedit-spg.html',
+	'СТАНЦИЯ ПНЕВМОГИДРАВЛИЧЕСКАЯ ПОБЕДИТ-СПГ-1': './catalog/istochniki-davleniya/pobedit-spg.html',
+	'СТАНЦИЯ ПНЕВМОГИДРАВЛИЧЕСКАЯ ПОБЕДИТ-СПГ-2': './catalog/istochniki-davleniya/spg-2.html',
+	'СТАНЦИЯ ПНЕВМОГИДРАВЛИЧЕСКАЯ ПОБЕДИТ-СПГ-1М': './catalog/istochniki-davleniya/spg-1m.html',
 	'СТАНОК ДЛЯ ВЫРЕЗКИ ПРОКЛАДОК ПОБЕДИТ-СВП-1': './catalog/meh-obrabotka/pobedit-svp-1.html',
 	'СТАНОК ДЛЯ ВЫРЕЗКИ ПРОКЛАДОК ПОБЕДИТ-СВП-2': './catalog/meh-obrabotka/pobedit-svp-2.html',
 	'СПЕЦИАЛИЗИРОВАННЫЙ РАСТОЧНОЙ СТАНОК ДЛЯ МЕХАНИЧЕСКОЙ ОБРАБОТКИ ДЕТАЛЕЙ ТРУБОПРОВОДНОЙ АРМАТУРЫ ПОБЕДИТ-СР': './catalog/meh-obrabotka/pobedit-sr.html',
@@ -29,6 +32,7 @@ let obj = {
 	'УСТАНОВКИ КОМПРЕССОРНЫЕ ПОБЕДИТ-КС': './catalog/vspom-oborudovanie/pobedit-ks.html',
 	'УСТАНОВКИ ОБОРОТНОГО ВОДОСНАБЖЕНИЯ ПОБЕДИТ-УОВ': './catalog/vspom-oborudovanie/pobedit-uov.html',
 	'БРОНЕОГРАЖДЕНИЕ ПОБЕДИТ-БО': './catalog/vspom-oborudovanie/pobedit-bo.htm',
+	'НАСОСНЫЕ СТАНЦИИ': './catalog/istoch-davlen.html'
 };
 
 /* Создаем два массива. В одном храним ключи. Во втором - ссылки. */
