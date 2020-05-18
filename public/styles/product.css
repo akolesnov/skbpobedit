@@ -328,6 +328,7 @@
 		font-size: 12px;
 	}
 	.tabs__block th {
-		font-size: 12px;
+		font-size: 10px;
+		padding: 3px;
 	}
 }
