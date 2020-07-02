@@ -189,7 +189,8 @@ nav li:hover > .submenu {
 
 footer{
 	background: #313234;
-	padding: 1.5rem 0;
+	/* padding: 1.5rem 0; */
+	padding: 24px 0 80px 0;
 	color: #ffffff;
 	text-align: center;
 }
@@ -263,7 +264,25 @@ footer{
 	font-size: 32px;
 	font-weight: bold;
 }
-
+.legal {
+	position: relative;
+}
+.legal__name {
+	line-height: 1.3rem;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.legal__text {
+	font-size: 8px;
+	display: none;
+	position: absolute;
+	top: 2rem;
+	width: 100%;
+}
+.legal__name:hover + .legal__text {
+	display: block;
+}
 /*----------media-queries--------------*/
 
 @media screen and (max-width: 1200px) {
