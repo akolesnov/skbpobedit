@@ -20,7 +20,7 @@
 	/*word-break: break-all;*/
 }
 .about-logo {
-
+	
 	display: -webkit-box;
 
 	display: -ms-flexbox;
@@ -32,6 +32,7 @@
 	height: 80px;
 	-webkit-box-sizing: border-box;
 			box-sizing: border-box;
+	display: block;
 }
 .skb {
 	height: 65px;
